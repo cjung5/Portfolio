@@ -1,0 +1,34 @@
+.research {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+  }
+  
+  .research:hover {
+    transform: translateY(-7px);
+  }
+  
+  .research__description {
+    margin-top: 1em;
+  }
+  
+  .research__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.0em 0;
+  }
+  
+  .research__stack-item {
+    margin: 0.5em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
+  }
+  
+  .research .link--icon {
+    margin-left: 0.5em;
+  }
+  
