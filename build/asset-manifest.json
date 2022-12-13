@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9a67784.chunk.css",
-    "main.js": "/static/js/main.9aa25822.chunk.js",
-    "main.js.map": "/static/js/main.9aa25822.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7ee59e52.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7ee59e52.js.map",
-    "static/js/2.961455c6.chunk.js": "/static/js/2.961455c6.chunk.js",
-    "static/js/2.961455c6.chunk.js.map": "/static/js/2.961455c6.chunk.js.map",
+    "main.css": "/static/css/main.b2c9f628.css",
+    "main.js": "/static/js/main.3f6a7f30.js",
+    "static/media/little_prince.png": "/static/media/little_prince.0bdf3f61dfdc9ebf2fc6.png",
+    "static/media/me.JPG": "/static/media/me.ab140e2f7deb0febbf05.JPG",
+    "static/media/Resume2022.pdf": "/static/media/Resume2022.303778af18239197b909.pdf",
     "index.html": "/index.html",
-    "static/css/main.c9a67784.chunk.css.map": "/static/css/main.c9a67784.chunk.css.map",
-    "static/js/2.961455c6.chunk.js.LICENSE.txt": "/static/js/2.961455c6.chunk.js.LICENSE.txt",
-    "static/media/me.ab140e2f.JPG": "/static/media/me.ab140e2f.JPG"
+    "main.b2c9f628.css.map": "/static/css/main.b2c9f628.css.map",
+    "main.3f6a7f30.js.map": "/static/js/main.3f6a7f30.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ee59e52.js",
-    "static/js/2.961455c6.chunk.js",
-    "static/css/main.c9a67784.chunk.css",
-    "static/js/main.9aa25822.chunk.js"
+    "static/css/main.b2c9f628.css",
+    "static/js/main.3f6a7f30.js"
   ]
 }
