@@ -18,6 +18,7 @@ export default () => (
           &times;
         </button>
         <a href={resumepdf}>Link to My File</a>
+        
         {/* <div className="resume__content">
           <Document file={resumepdf}>
             <Page pageNumber={1} />
