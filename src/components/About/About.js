@@ -3,6 +3,10 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 import my_photo from '../../img/me.JPG'
+import Resume from './Resume'
+import resumepdf from './Resume2022.pdf';
+import { Document, Page } from '@react-pdf/renderer';
+
 
 const About = () => {
   const { name, photo, role, description, resume, social } = about
@@ -22,11 +26,8 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
+          <a href={resumepdf} className='about__resume'>resume</a>
+          // <Resume className='about__resume' />
         )}
 
         {social && (

@@ -1,5 +1,87 @@
-.canvas {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.littple_prince_wrapper {
+    background: rgba(50, 50, 50, 1)  !important;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
 }
+
+
+.little_prince_canvas {
+    grid-area: little_prince_canvas;
+}
+
+.little_prince_picture {
+    grid-area: little_prince_picture;
+    
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.little_prince_img {
+    width: 100%;
+    display: block;
+}
+
+.little_prince_description {
+    grid-area: little_prince_description;
+    display: block;
+    color: white;
+    font-family: Arial;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.little_prince_description h2 {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.little_prince_description h4 {
+    font-size: 1.0em;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+@media (orientation: portrait) {
+    .littple_prince_wrapper {
+      display: grid;
+  
+      /* The rows, columns and areas of the grid are defined visually
+       * using the grid-template-areas property.  Each string is a row,
+       * and each word an area.  The number of words in a string
+       * determines the number of columns. Note the number of words
+       * in each string must be identical. */
+      grid-template-areas: "little_prince_picture"
+                           "little_prince_description"
+                           "little_prince_canvas";
+  
+      /* The way to size columns and rows can be assigned with the
+       * grid-template-columns and grid-template-rows properties. */
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    .littple_prince_wrapper {
+      display: grid;
+  
+      /* Again the template property defines areas of the same name,
+       * but this time positioned differently to better suit a
+       * landscape orientation. */
+      grid-template-areas: "little_prince_picture little_prince_canvas"
+                           "little_prince_description little_prince_canvas";
+  
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto auto;
+    }
+  }

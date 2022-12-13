@@ -9,7 +9,7 @@ const about = {
   name: 'Changsoo Jung',
   role: 'Computer Science Ph.D. Student',
   description:
-    'Interested in machine learning for computer vision.\n Pursuing vision research related to human data such as egocentric pose estimation and object interations.',
+    'Interested in machine learning for computer vision.\n Pursuing vision research related to human data such as egocentric pose estimation and object interactions.',
   resume: 'https://www.linkedin.com/in/changsoo-jung-a83340108/',
   social: {
     linkedin: 'https://www.linkedin.com/in/changsoo-jung-a83340108/',
@@ -21,7 +21,15 @@ const research = [
   // research can be added an removed
   // if there is no research, Research section won't show up
   {
-    name: '6D Pose',
+    name: 'Hand Micro-gesture Recognition',
+    description: "Recognizing 49 hand micro-gestures which happens quick on small area",
+    data_stack: ['Custom Synthetic Dataset & Real Dataset'],
+    stack: ['Pytorch', 'Pytorch-lightning'],
+    paperLink: 'https://scholar.google.com/',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: '6D Pose for Education',
     description: "Predicting objects' centroids and rotations in 3D through a 2D image",
     data_stack: ['Custom Synthetic Dataset'],
     stack: ['Pytorch', 'Pytorch-lightning', 'Pytorch3D'],
@@ -42,19 +50,19 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: '6D Pose',
-    description: "Predicting objects' centroids and rotations in 3D through a 2D image",
-    stack: ['Pytorch', 'Pytorch-lightning', 'Pytorch3D'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
     name: 'Ray Tracying for Computer Graphics',
     description:
       'Final project of intro to computer graphics',
     stack: ['C++'],
     sourceCode: 'https://github.com',
     livePreview: '/project/little_prince',
+  },
+  {
+    name: 'GolfPose',
+    description: "A Posture Regonition iOS application for advising golf posture through Google's PoseNet",
+    stack: ['Swift', 'Swift-UI', 'CoreML', 'PoseNet'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
   },
 ]
 
