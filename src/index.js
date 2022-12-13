@@ -6,7 +6,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom';
 
 render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ThemeProvider>
       <App />
     </ThemeProvider>
